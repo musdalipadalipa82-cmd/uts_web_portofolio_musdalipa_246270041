@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Branding Strategy for skintific Skincare</title>
+	<link rel="stylesheet" href="bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.project-container {
+			background-color: white;
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(0,0,0,0.1);
+		}
+
+		.full-width-image {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.breadcrumb {
+			padding: 20px;
+			background-color: #f8f9fa;
+			font-family: 'IBM Plex Mono', monospace;
+			font-size: 14px;
+		}
+		.breadcrumb a {
+			color: black;
+			text-decoration: none;
+		}
+		.breadcrumb a:hover {
+			text-decoration: underline;
+		}
+		.project-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 40pt;
+			transform: translate(-50%, -50%);
+			color: white;
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+		.image-container {
+			position: relative;
+		}
+		
+		/* Slider Styles */
+		.project-slider {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+		.slider-container {
+			display: flex;
+			transition: transform 0.5s ease;
+			width: 300%;
+		}
+		.slider-slide {
+			width: 33.33%;
+			flex-shrink: 0;
+		}
+		.slider-slide img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.slider-controls {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			gap: 10px;
+		}
+		.slider-dot {
+			width: 10px;
+			height: 10px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 50%;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.slider-dot.active {
+			background-color: white;
+		}
+		
+		/* Slider Checkbox Hack */
+		.slider-toggle {
+			display: none;
+		}
+		#slide1:checked ~ .slider-container {
+			transform: translateX(0);
+		}
+		#slide2:checked ~ .slider-container {
+			transform: translateX(-33.33%);
+		}
+		#slide3:checked ~ .slider-container {
+			transform: translateX(-66.66%);
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html#home">Home</a></li>
+			<li><a href="#contact">contact</a></li>
+			<li><a href="#project">project</a></li>
+			<li class="empty"></li>
+			<li><a href="https://musdalipadalipa82-cmd.github.io/musdalipadalipa82/" target="_blank">mysosmed</a></li>
+			<li><a href="https://github.com/musdalipadalipa82-cmd">github</a></li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="skintif.jpg" class="full-width-image" alt="Branding Strategy for skintific Skincare">
+			<h1 class="project-title">branding Strategy<br>skintific Skincare</h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="index.html">Home</a> / branding Strategy for skintific skincare
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Overview</h2>
+						<p>Project ini berfokus pada pengembangan strategi branding untuk Skintific, sebuah brand skincare berbasis sains yang menggabungkan teknologi dan inovasi dermatologi modern.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Research & Discovery</h2>
+						<p>Tahapan ini dilakukan untuk memahami kebutuhan kulit pengguna, tren formula aktif yang sedang digemari, serta posisi Skintific di pasar skincare ilmiah. Hasil riset menjadi dasar dalam menentukan arah visual dan pesan merek yang relevan:</p>
+						<ul>
+							<li>Analisis Tren Kecantikan Modern</li>
+							<li>Studi Kebutuhan Kulit Konsumen Asia</li>
+							<li>Eksplorasi Bahan Aktif Niacinamide, Ceramide, Hyaluronic Acid</li>
+							<li>Analisis Kompetitor di Pasar Skincare Premium</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Brand Identity Development</h2>
+						<p>Pengembangan identitas merek menonjolkan citra ilmiah dan profesional dengan sentuhan estetika yang lembut dan modern. Desain dibuat untuk mencerminkan kepercayaan, kemurnian, dan efektivitas produk Skintific:</p>
+						<ul>
+							<li>Palet Warna Putih, Biru, dan Netral</li>
+							<li>Tipografi Bersih dan Modern</li>
+							<li>Desain Visual Minimalis dan Klinis</li>
+							<li>Konsistensi Elemen di Seluruh Platform</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Key Outcomes</h2>
+						<p>Hasil branding memperkuat posisi Skintific sebagai merek skincare ilmiah yang terpercaya dan berorientasi pada hasil nyata, sekaligus meningkatkan daya tarik visual dan kepercayaan konsumen:</p>
+						<ul>
+							<li>Identitas visual ilmiah yang modern dan elegan</li>
+							<li>Citra merek yang tepercaya dan profesional</li>
+							<li>Peningkatan engagement melalui konten edukatif</li>
+							<li>Penguatan posisi Skintific sebagai skincare berbasis sains terdepan</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="skintif.jpg" alt="skintific">
+								</div>
+								<div class="slider-slide">
+									<img src="skintif.jpg" alt="skintific">
+								</div>
+								<div class="slider-slide">
+									<img src="skintif.jpg" alt="skintif">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+		<h2>Interested in<br>
+			learning more?<br>musdalipadalipa8282@gmail.com</h2>
+			<p>designed & developed by musdalipa 2024</p>
+		</footer>
+	</body>
+	</html>
